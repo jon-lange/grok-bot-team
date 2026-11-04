@@ -1,0 +1,14 @@
+flowchart TD
+  You["You"] -->|"one thread"| CoS["Chief of Staff"]
+  CoS -->|"one brief"| CC["Childcare"]
+  CoS -->|"one brief"| IC["Inbox and calendar"]
+  CoS -->|"one brief"| HomeBot["Home"]
+  CoS -->|"one brief"| Travel["Travel"]
+  CoS -->|"one brief"| Buy["Purchases"]
+  CC -->|"one report"| CoS
+  IC -->|"one report"| CoS
+  HomeBot -->|"one report"| CoS
+  Travel -->|"one report"| CoS
+  Buy -->|"one report"| CoS
+  CoS -->|"one answer"| You
+  Mail["Hiring alert email"] -->|"mail filter"| CC
