@@ -19,7 +19,7 @@ Every new kind of work starts at draft-and-ask. Trust moves up one kind of task 
 3. **Act and report.** Once I say yes for that kind, it does the work and tells me afterward. No per-item ping for that kind.
 4. **Still gated.** Payments, deletions, production changes, first messages to new people, and anything irreversible or high-stakes stay on a per-item yes until I grant that kind explicitly.
 
-Trust is earned **per task type**, not as a blanket for the bot. A travel bot that may quietly watch the mailbox still needs my yes to change a calendar event or book a hotel.
+Trust is earned **per task type**, not as a blanket for the bot. A travel bot that may fix my calendar when a flight moves still needs my yes to book a hotel or pay for anything.
 
 ![Earned-autonomy ladder: draft and ask, offer standing permission, act and report, high stakes stay gated](docs/autonomy-ladder.svg)
 
@@ -91,7 +91,7 @@ Heavy means real daily traffic. Active means regular routines or frequent briefs
 | Bot | Use | One-line story |
 |---|---|---|
 | [Childcare](stories/childcare.md) | Heavy | Hiring help at home. Wakes on hiring-site alert email instead of polling. |
-| [Travel](stories/trips.md) | Active | Early handoff. Flights, hotels, day-before briefs; flags calendar mismatches. |
+| [Travel](stories/trips.md) | Active | Early handoff. Flights, hotels, day-before briefs; made airline changes itself and keeps the calendar in sync. |
 | [Inbox and calendar](stories/inbox-and-calendar.md) | Active | Morning triage. Ranked list of what needs me. Absorbed family logistics. |
 | [Purchases](stories/purchases.md) | Active | Find, compare, buy. Absorbed the watch-list hunt. |
 | [Home](stories/home.md) | Moderate | Organizing, cleaners, appliance fixes. Drafts only. |
